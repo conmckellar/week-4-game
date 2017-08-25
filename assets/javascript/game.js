@@ -1,29 +1,29 @@
 	var number = Math.floor((Math.random() * 102) + 19);
 	
-	var blue = Math.floor((Math.random() * 12) + 1);
-	var red = Math.floor((Math.random() * 12) + 1);
-	var yellow = Math.floor((Math.random() * 12) + 1);
 	var green = Math.floor((Math.random() * 12) + 1);
+	var red = Math.floor((Math.random() * 12) + 1);
+	var blue = Math.floor((Math.random() * 12) + 1);
+	var yellow = Math.floor((Math.random() * 12) + 1);
 
 
-	var guessTotal = 0;
 	var wins = 0;
 	var losses = 0;
+	var guessTotal = 0;
 
 
 	$(".numberTarget").html(number);
 
-	$(".bluecrystal").click(function() {
-		update(blue);
+	$(".greencrystal").click(function() {
+		update(green);
 	});
 	$(".redcrystal").click(function() {
 		update(red);
 	});
+	$(".bluecrystal").click(function() {
+		update(blue);
+	});
 	$(".yellowcrystal").click(function() {
 		update(yellow);
-	});
-	$(".greencrystal").click(function() {
-		update(green);
 	});
 	
 
@@ -31,10 +31,10 @@
 		number = Math.floor((Math.random() * 102) + 19);
 		$(".numberTarget").html(number);
 
-		blue = Math.floor((Math.random() * 12) + 1);
-		red = Math.floor((Math.random() * 12) + 1);
-		yellow = Math.floor((Math.random() * 12) + 1);
 		green = Math.floor((Math.random() * 12) + 1);
+		red = Math.floor((Math.random() * 12) + 1);
+		blue = Math.floor((Math.random() * 12) + 1);
+		yellow = Math.floor((Math.random() * 12) + 1);
 
 		guessTotal = 0;
 

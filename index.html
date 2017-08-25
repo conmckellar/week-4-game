@@ -1,0 +1,77 @@
+<html>
+	<head>
+	<title>Power Crystal</title>
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/css/bootstrap.min.css" integrity="sha384-/Y6pD6FV/Vv2HJnA6t+vslU6fwYXjCFtcEpHbNJ0lyAFsXTsjBbfaDjzALeQsN6M" crossorigin="anonymous">
+		
+		<link rel="stylesheet" href="./assets/css/reset.css">
+		<link rel="stylesheet" href="./assets/css/style.css">
+	</head>
+	<body>
+
+	<div class="container">
+
+	<div class="row">
+		<div class="col-md-12 text-center">
+			<h1>POWER CRYSTAL</h1>
+			</div>
+		</div>
+	</div>
+	<br><br>
+
+	<div class="row">
+
+		<div class="col-md-6 text-center">
+			<div class="col-md-12">
+				<h2>Target Power: <span class="numberTarget"></h2>
+			</div>
+			<div class="col-md-12">
+				<h2>Your Current Power: <span class="guessdisplay">0</span></h2>
+			</div>
+
+			<div class="col-md-12">
+			<br>
+			<br>
+				<div class="col-md-2 col-md-offset-2">
+					<img class="greencrystal" src="assets/images/green.jpg">
+				</div>
+				<div class="col-md-2">
+					<img class="redcrystal" src="assets/images/red.jpg">
+				</div>
+				<div class="col-md-2">
+					<img class="bluecrystal" src="assets/images/blue.jpg">
+				</div>
+				<div class="col-md-2">
+					<img class="yellowcrystal" src="assets/images/yellow.jpg">
+				</div>
+			</div>
+
+		</div>
+
+		<div class="col-md-6">
+			<div class="col-md-12 text-center">
+
+				<h3>Wins: <span id="winsdisplay">0</span></h3>
+				<h3>Losses: <span id="lossesdisplay">0</span></h3>
+				<br><br>
+				<p id="instructions">Click on the crystals at the left to increase the level of magic power. Your goal is to match the Target Power number, but until you click on a crystal, you won't know how much power it will output! Each round, the Target Power will change, along with each crystal's output!</p>
+
+			</div>
+		</div>
+	</div>
+
+		<!--<h1>POWER CRYSTAL</h1>
+
+		<div id="numberTarget">Points: </div>
+
+		<div id=crystals>
+			<div id="green"></div>
+			<div id="red"></div>
+			<div id="blue"></div>
+			<div id="yellow"></div>-->
+
+		</div>
+
+		<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+		<script type="text/javascript" src="assets/javascript/game.js"></script>
+	</body>
+</html>
